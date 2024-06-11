@@ -14,7 +14,7 @@ html {
   width: 100%;
 
   @include for-large-up {
-    min-width: 1400px;
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;

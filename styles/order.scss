@@ -17,7 +17,6 @@
   &__illustration {
     display: flex;
     margin: 0 auto;
-    max-width: 200px;
 
     @include for-large-up {
       margin: 0;
@@ -28,6 +27,7 @@
   }
 
   &__title {
+    margin: 0;
     margin-top: 40px;
     font-weight: 700;
     font-size: 40px;
