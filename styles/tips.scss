@@ -7,7 +7,7 @@
 }
 
 .tip {
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid $customers-tips-border;
   padding: 40px 15px 0 15px;
 
   &__subtitle {

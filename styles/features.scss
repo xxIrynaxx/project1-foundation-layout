@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
-    color: #009b4d;
+    color: $text-color-green;
     margin: 0;
   }
 
@@ -40,7 +40,7 @@
     font-size: 24px;
     line-height: 34px;
     padding-bottom: 20px;
-    border-bottom: 3px solid #3142c6;
+    border-bottom: 3px solid $features-order-blue-color;
   }
 
   &__advantage-header {
@@ -51,7 +51,7 @@
 
   &__advantage-title {
     margin-top: 42px;
-    color: #3142c6;
+    color: $features-order-blue-color;
     font-size: 22px;
     line-height: 26px;
     margin: 0;
@@ -66,7 +66,7 @@
   }
 
   &__advantage-item {
-    border-bottom: 1px solid #2b292d26;
+    border-bottom: 1px solid $features-border;
     margin-top: 21px;
     padding-bottom: 22px;
     display: flex;

@@ -7,7 +7,7 @@
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
-  color: #2b292d;
+  color: $text-color-primary;
 }
 
 .page {
@@ -29,6 +29,7 @@ html {
 @import 'customers.scss';
 @import 'features.scss';
 @import 'tips.scss';
+@import 'inbox.scss';
 @import 'audience.scss';
 @import 'order.scss';
 @import 'footer.scss';

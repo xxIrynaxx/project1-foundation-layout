@@ -127,7 +127,7 @@ html {
   margin-right: 0;
 }
 .navigation__arrow {
-  background-image: url(/image/arrow.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   display: inline-block;
   height: 5px;
   width: 8px;
@@ -601,7 +601,7 @@ html {
   margin-bottom: 0;
 }
 .audience__card:hover {
-  background-color: #3141c5;
+  background-color: #3040c4;
 }
 @media screen and (min-width: 1400px) {
   .audience__card {

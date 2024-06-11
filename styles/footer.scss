@@ -17,7 +17,7 @@
   }
 
   &__line {
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid $text-color-primary;
     width: 100%;
     opacity: 0.1;
     margin: 0;
@@ -98,7 +98,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $text-color-primary;
     margin: 0;
   }
 

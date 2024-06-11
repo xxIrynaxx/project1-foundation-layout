@@ -89,7 +89,7 @@
     flex-direction: column;
     padding: 22px 0 33px;
     margin-bottom: 15px;
-    background-color: #fff;
+    background-color: $color-white;
     border-radius: 8px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1),
       inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
@@ -103,7 +103,7 @@
     }
 
     &:hover {
-      background-color: #3141c5;
+      background-color: $color-blue;
     }
 
     @include for-large-up {
