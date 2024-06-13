@@ -1,0 +1,142 @@
+.communicate {
+  padding: 50px 15px;
+
+  @include for-large-up {
+    padding: 110px 128px;
+  }
+
+  &__content {
+    @include for-large-up {
+      display: flex;
+    }
+  }
+
+  &__text-block {
+    @include for-large-up {
+      padding-top: 13px;
+      max-width: 462px;
+      margin-right: 193px;
+      margin-left: 2px;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #0189d1;
+
+    @include for-large-up {
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.36px;
+
+    @include for-large-up {
+      margin-top: 24px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 34px;
+
+    @include for-large-up {
+      margin-top: 30px;
+    }
+  }
+
+  &__button {
+    margin-top: 30px;
+
+    @include for-large-up {
+      margin-top: 39px;
+    }
+  }
+
+  &__figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__image {
+    margin-top: 40px;
+    max-width: 100%;
+
+    @include for-large-up {
+      margin: 0;
+    }
+  }
+
+  &__image-caption {
+    margin-top: 17px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+    text-align: center;
+  }
+
+  &__line {
+    margin-top: 40px;
+    width: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    @include for-large-up {
+      margin-top: 87px;
+    }
+  }
+
+  &__advantages {
+    @include for-large-up {
+      margin-top: 41px;
+      display: flex;
+    }
+  }
+
+  &__item {
+    margin-top: 33px;
+    font-size: 18px;
+    line-height: 26px;
+    width: 289px;
+
+    &:last-child {
+      margin-top: 32px;
+
+      @include for-large-up {
+        margin-right: 0;
+      }
+    }
+
+    @include for-large-up {
+      margin-right: 30px;
+      width: 360px;
+    }
+  }
+
+  &__advantage-title {
+    margin: 0;
+    margin-bottom: 6px;
+    font-weight: 700;
+  }
+
+  &__advantage-description {
+    font-weight: 400;
+  }
+
+  &__advantage-link {
+    font-weight: 700;
+    color: #3040c4;
+  }
+}

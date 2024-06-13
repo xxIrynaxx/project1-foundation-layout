@@ -1,16 +1,16 @@
 .features {
+  padding-bottom: 103px;
   display: flex;
   position: relative;
-  height: 602px;
 
   @include for-large-down {
     display: none;
   }
 
   &__content {
-    width: 1140px;
     margin: auto;
     display: flex;
+    width: 1140px;
   }
 
   &__column {
@@ -18,20 +18,20 @@
   }
 
   &__subtitle {
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
     color: $text-color-green;
-    margin: 0;
   }
 
   &__title {
+    margin-top: 24px;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
-    margin-top: 24px;
-    margin-bottom: 0;
   }
 
   &__description {
@@ -39,44 +39,43 @@
     margin-bottom: 0;
     font-size: 24px;
     line-height: 34px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid $features-order-blue-color;
   }
 
   &__advantage-header {
-    line-height: 42px;
-    display: flex;
     margin-top: 42px;
+    display: flex;
+    line-height: 42px;
   }
 
   &__advantage-title {
-    margin-top: 42px;
+    margin: 0;
+    margin-left: 15px;
     color: $features-order-blue-color;
     font-size: 22px;
     line-height: 26px;
-    margin: 0;
-    margin-left: 15px;
   }
 
   &__advantage-text {
+    margin-bottom: 0;
     margin-top: 8px;
+    padding-bottom: 20px;
     font-size: 18px;
     line-height: 26px;
-    margin-bottom: 0;
+    border-bottom: 3px solid $features-order-blue-color;
   }
 
   &__advantage-item {
-    border-bottom: 1px solid $features-border;
     margin-top: 21px;
     padding-bottom: 22px;
     display: flex;
+    border-bottom: 1px solid $features-border;
   }
 
   &__advantage-item-text {
+    margin-left: 15px;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    margin-left: 15px;
   }
 
   &__left-decoration {
@@ -85,7 +84,7 @@
     top: 258px;
   }
 
-  &__bunner {
+  &__banner {
     position: absolute;
     right: 0;
   }

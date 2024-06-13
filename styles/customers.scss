@@ -3,7 +3,6 @@
   flex-direction: column;
 
   @include for-large-up {
-    width: 1140px;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
@@ -11,6 +10,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 1140px;
   }
 
   &__row {
@@ -23,14 +23,14 @@
   }
 
   &__item {
-    height: 94px;
-    width: 107px;
-    border-bottom: 1px solid $customers-tips-border;
-    border-right: 1px solid $customers-tips-border;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+    height: 94px;
+    width: 107px;
+    border-bottom: 1px solid $customers-tips-feedback-border;
+    border-right: 1px solid $customers-tips-feedback-border;
 
     @include for-large-up {
       border: none;

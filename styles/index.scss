@@ -14,11 +14,11 @@ html {
   width: 100%;
 
   @include for-large-up {
-    max-width: 1400px;
     margin: auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1400px;
+    min-height: 100vh;
   }
 }
 
@@ -30,6 +30,8 @@ html {
 @import 'features.scss';
 @import 'tips.scss';
 @import 'inbox.scss';
+@import 'communicate.scss';
 @import 'audience.scss';
+@import 'feedback.scss';
 @import 'order.scss';
 @import 'footer.scss';

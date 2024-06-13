@@ -1,16 +1,16 @@
 .header {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
   height: 64px;
   width: 100%;
   background-color: $color-white;
-  display: flex;
-  align-items: center;
-  padding-left: 15px;
 
   @include for-large-up {
+    margin: auto;
     width: 1140px;
     height: 62px;
     background: $header-desktop-background-color;
-    margin: auto;
   }
 
   &__button {
@@ -22,11 +22,11 @@
   }
 
   &__menu-button {
+    margin-left: auto;
     width: 58px;
     border: none;
     border-left: 1px solid $border;
     height: 100%;
-    margin-left: auto;
     background: transparent;
 
     @include for-large-up {
@@ -54,18 +54,18 @@
   display: none;
 
   @include for-large-up {
-    display: block;
     margin-left: auto;
     margin-top: 7px;
     margin-right: 75px;
+    display: block;
   }
 
   &__item {
+    margin-right: 50px;
     color: $text-color-primary;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
-    margin-right: 50px;
 
     &_selected {
       font-weight: 700;
@@ -77,11 +77,11 @@
   }
 
   &__arrow {
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    margin-left: 11px;
     display: inline-block;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     height: 5px;
     width: 8px;
-    margin-left: 11px;
   }
 }
 
@@ -89,14 +89,14 @@
   display: flex;
 
   &__image {
+    margin-right: 13px;
     width: 48px;
     height: 48px;
-    margin-right: 13px;
 
     @include for-large-up {
+      margin-right: 15px;
       width: 60px;
       height: 60px;
-      margin-right: 15px;
     }
   }
 
@@ -124,7 +124,7 @@
   background-color: $header-desktop-background-color;
 
   @include for-large-up {
-    background-color: $header-desktop-background-color;
     padding-top: 39px;
+    background-color: $header-desktop-background-color;
   }
 }

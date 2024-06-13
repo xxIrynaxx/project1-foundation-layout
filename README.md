@@ -1,6 +1,6 @@
 # project1_HTML-CSS
 
-### [Site link](https://xxirynaxx.github.io/project/)
+### [Site link](https://xxirynaxx.github.io/project1_HTML&CSS/)
 
 Responsive layout - Foundation supports desktop versions (up-to-1400px) and mobile (up-to-1399)
 

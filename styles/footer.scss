@@ -4,11 +4,11 @@
   flex-direction: column;
 
   &__description {
+    margin-top: 26px;
     display: none;
     width: 360px;
     line-height: 26px;
     font-size: 18px;
-    margin-top: 26px;
     color: $text-color-light-grey;
 
     @include for-large-up {
@@ -17,11 +17,11 @@
   }
 
   &__line {
+    margin: 0;
+    margin-top: 40px;
     border-top: 1px solid $text-color-primary;
     width: 100%;
     opacity: 0.1;
-    margin: 0;
-    margin-top: 40px;
 
     @include for-large-up {
       margin: 0;
@@ -45,11 +45,11 @@
   flex-direction: column;
 
   @include for-large-up {
-    width: 1140px;
     margin: 0 auto;
-    height: 338px;
     display: flex;
     flex-direction: row;
+    width: 1140px;
+    height: 338px;
   }
 }
 
@@ -76,9 +76,9 @@
   flex-direction: column;
 
   @include for-large-up {
-    margin-top: 60px;
     margin-left: auto;
     flex-direction: row;
+    margin-top: 60px;
   }
 
   &__column {
@@ -95,21 +95,21 @@
   width: 265px;
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     color: $text-color-primary;
-    margin: 0;
   }
 
   &__list {
     margin: 0;
+    margin-top: 18px;
     padding: 0;
     list-style-type: none;
     font-size: 18px;
     line-height: 30px;
     color: rgba(43, 41, 45, 0.6);
-    margin-top: 18px;
   }
 }
 
@@ -119,29 +119,29 @@
   flex-direction: column;
 
   @include for-large-up {
-    height: 50px;
-    flex-direction: row;
-    width: 1140px;
     margin: 0 auto;
+    flex-direction: row;
     align-items: center;
+    height: 50px;
+    width: 1140px;
   }
 }
 
 .terms {
+  margin-top: 30px;
   line-height: 50px;
   font-size: 14px;
-  margin-top: 30px;
 
   @include for-large-up {
+    margin-top: 0;
     line-height: 22px;
     font-size: 14px;
-    margin-top: 0;
   }
 
   &__item {
+    margin-right: 22px;
     text-decoration: none;
     color: rgba(43, 41, 45, 0.6);
-    margin-right: 22px;
   }
 }
 
@@ -176,11 +176,11 @@
   }
 
   &__name {
+    margin-top: 20px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    margin-top: 20px;
   }
 }
 
