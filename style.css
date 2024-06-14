@@ -183,7 +183,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .headline {
-    margin: 76px 0 77px 126px;
+    margin: 76px 25px 77px 126px;
     display: flex;
     position: relative;
     width: 1249px;
