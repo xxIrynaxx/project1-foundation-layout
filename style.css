@@ -1226,6 +1226,12 @@ html {
   line-height: 30px;
   color: rgba(43, 41, 45, 0.6);
 }
+.nav-links__list-item {
+  margin-bottom: 6px;
+}
+.nav-links__list-item:last-child {
+  margin-bottom: 0;
+}
 
 .footer-links {
   margin-left: 15px;
@@ -1286,7 +1292,7 @@ html {
   }
 }
 .logo-vertical__image {
-  width: 60px;
+  width: 65px;
   height: 60px;
 }
 .logo-vertical__name {
