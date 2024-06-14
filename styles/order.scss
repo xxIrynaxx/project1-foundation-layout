@@ -18,6 +18,7 @@
   &__illustration {
     margin: 0 auto;
     display: flex;
+    width: 220px;
 
     @include for-large-up {
       margin: 0;
@@ -51,7 +52,7 @@
   }
 
   &__email {
-    margin-top: 40px;
+    margin-top: 80px;
     background: $color-white;
     border: 1px solid rgba(43, 41, 45, 0.2);
     border-radius: 2px;
