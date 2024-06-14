@@ -186,7 +186,8 @@ html {
     margin: 76px 0 77px 130px;
     display: flex;
     position: relative;
-    width: 1249px;
+    width: 1245px;
+    height: 456px;
   }
 }
 .headline__content {
