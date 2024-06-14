@@ -1,6 +1,7 @@
 .header {
   padding-left: 15px;
   display: flex;
+  align-items: center;
   height: 64px;
   width: 100%;
   background-color: $color-white;
@@ -8,6 +9,7 @@
   @include for-large-up {
     padding: 0;
     margin: auto;
+    align-items: normal;
     width: 1140px;
     height: 62px;
     background: $header-desktop-background-color;

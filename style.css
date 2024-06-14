@@ -53,6 +53,7 @@ html {
 .header {
   padding-left: 15px;
   display: flex;
+  align-items: center;
   height: 64px;
   width: 100%;
   background-color: #fff;
@@ -61,6 +62,7 @@ html {
   .header {
     padding: 0;
     margin: auto;
+    align-items: normal;
     width: 1140px;
     height: 62px;
     background: #f3c6bd;
