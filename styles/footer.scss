@@ -36,7 +36,11 @@
 }
 
 .about-company {
-  margin-top: 44px;
+  margin-top: 40px;
+
+  @include for-large-up {
+    margin-top: 44px;
+  }
 }
 
 .footer-navigation {
@@ -172,7 +176,6 @@
   }
   &__image {
     width: 60px;
-    height: 60px;
   }
 
   &__name {

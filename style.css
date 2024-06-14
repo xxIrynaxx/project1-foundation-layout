@@ -1140,7 +1140,12 @@ html {
 }
 
 .about-company {
-  margin-top: 44px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .about-company {
+    margin-top: 44px;
+  }
 }
 
 .footer-navigation {
@@ -1278,7 +1283,6 @@ html {
 }
 .logo-vertical__image {
   width: 60px;
-  height: 60px;
 }
 .logo-vertical__name {
   margin-top: 20px;
