@@ -2,12 +2,11 @@
   width: 100%;
 
   @include for-large-up {
-    margin: auto;
+    margin-left: 126px;
     margin-top: 76px;
     padding-bottom: 77px;
     display: flex;
     position: relative;
-    width: 1140px;
   }
 
   &__content {
@@ -87,7 +86,7 @@
       margin: 0;
       margin-left: auto;
       position: relative;
-      right: -105px;
+      right: 151px;
       top: 0;
       width: 796px;
       height: 448px;
