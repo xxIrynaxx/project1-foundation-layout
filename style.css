@@ -53,7 +53,6 @@ html {
 .header {
   padding-left: 15px;
   display: flex;
-  align-items: center;
   height: 64px;
   width: 100%;
   background-color: #fff;
