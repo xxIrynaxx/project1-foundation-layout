@@ -53,10 +53,10 @@
 
   &__actions {
     margin-top: 30px;
-    margin-bottom: 49px;
 
     @include for-large-up {
       margin-top: 58px;
+      margin-bottom: 49px;
       display: flex;
     }
   }

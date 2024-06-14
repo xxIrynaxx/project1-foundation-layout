@@ -234,11 +234,11 @@ html {
 }
 .headline__actions {
   margin-top: 30px;
-  margin-bottom: 49px;
 }
 @media screen and (min-width: 1400px) {
   .headline__actions {
     margin-top: 58px;
+    margin-bottom: 49px;
     display: flex;
   }
 }
