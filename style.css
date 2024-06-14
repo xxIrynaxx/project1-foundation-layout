@@ -1036,7 +1036,7 @@ html {
   .order__illustration {
     margin: 0;
     margin-right: 121.59px;
-    max-width: 269.41px;
+    width: 269.41px;
     min-height: 296px;
   }
 }
