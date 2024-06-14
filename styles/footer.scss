@@ -1,7 +1,12 @@
 .footer {
+  padding: 40px 0 23px;
   margin-top: auto;
   display: flex;
   flex-direction: column;
+
+  @include for-large-up {
+    padding: 0;
+  }
 
   &__description {
     margin-top: 26px;
@@ -18,7 +23,6 @@
 
   &__line {
     margin: 0;
-    margin-top: 40px;
     border-top: 1px solid $text-color-primary;
     width: 100%;
     opacity: 0.1;
@@ -36,8 +40,6 @@
 }
 
 .about-company {
-  margin-top: 40px;
-
   @include for-large-up {
     margin-top: 44px;
   }
@@ -58,7 +60,7 @@
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 31px 29px 40px 30px;
   display: flex;
   justify-content: center;
 
@@ -150,8 +152,7 @@
 }
 
 .social-links {
-  margin-top: 31px;
-  margin-bottom: 23px;
+  margin-top: 30px;
 
   @include for-large-up {
     margin-left: auto;

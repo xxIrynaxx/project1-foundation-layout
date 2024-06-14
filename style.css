@@ -1107,9 +1107,15 @@ html {
 }
 
 .footer {
+  padding: 40px 0 23px;
   margin-top: auto;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1400px) {
+  .footer {
+    padding: 0;
+  }
 }
 .footer__description {
   margin-top: 26px;
@@ -1126,7 +1132,6 @@ html {
 }
 .footer__line {
   margin: 0;
-  margin-top: 40px;
   border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
@@ -1142,9 +1147,6 @@ html {
   }
 }
 
-.about-company {
-  margin-top: 40px;
-}
 @media screen and (min-width: 1400px) {
   .about-company {
     margin-top: 44px;
@@ -1167,7 +1169,7 @@ html {
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 31px 29px 40px 30px;
   display: flex;
   justify-content: center;
 }
@@ -1259,8 +1261,7 @@ html {
 }
 
 .social-links {
-  margin-top: 31px;
-  margin-bottom: 23px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .social-links {
