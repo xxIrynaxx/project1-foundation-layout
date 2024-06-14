@@ -7,6 +7,7 @@
   background-color: $color-white;
 
   @include for-large-up {
+    padding: 0;
     margin: auto;
     width: 1140px;
     height: 62px;
@@ -89,7 +90,6 @@
   display: flex;
 
   &__image {
-    margin-right: 13px;
     width: 48px;
     height: 48px;
 

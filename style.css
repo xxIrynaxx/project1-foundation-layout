@@ -60,6 +60,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .header {
+    padding: 0;
     margin: auto;
     width: 1140px;
     height: 62px;
@@ -138,7 +139,6 @@ html {
   display: flex;
 }
 .logo__image {
-  margin-right: 13px;
   width: 48px;
   height: 48px;
 }
@@ -264,6 +264,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
+    margin: 0;
     margin-left: auto;
     position: relative;
     right: -105px;
