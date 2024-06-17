@@ -92,6 +92,7 @@ html {
   border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
   margin-left: auto;
   border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
   background: transparent;
 }
 @media screen and (min-width: 1400px) {
@@ -104,6 +105,11 @@ html {
   width: 18px;
   height: 13px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
+}
+@media screen and (min-width: 1400px) {
+  .header__menu-icon {
+    display: none;
+  }
 }
 
 .navigation {
