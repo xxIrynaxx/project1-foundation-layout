@@ -1,12 +1,12 @@
 .inbox {
-  padding: 50px 15px;
   display: flex;
   flex-direction: column;
+  padding: 50px 15px;
   background-color: rgba(252, 240, 227, 0.4);
 
   @include for-large-up {
-    padding: 0;
     flex-direction: row;
+    padding: 0;
   }
 
   &__figure {
@@ -14,8 +14,7 @@
     flex-direction: column;
     align-items: center;
     @include for-large-up {
-      margin: 0;
-      margin: 142px 0 101px 193px;
+      margin: 140px 0 101px 190px;
     }
   }
 
@@ -31,10 +30,10 @@
     display: none;
 
     @include for-large-up {
-      margin-top: 15px;
       display: block;
       font-size: 14px;
       line-height: 22px;
+      margin-top: 17px;
       color: rgba(43, 41, 45, 0.6);
       text-align: center;
     }
@@ -42,8 +41,7 @@
 
   &__content {
     @include for-large-up {
-      margin: 115px 99px 116px 0;
-      margin-left: 164px;
+      margin: 115px 101px 116px 165px;
     }
   }
 
@@ -56,28 +54,27 @@
   }
 
   &__subtitle {
-    margin-top: 32px;
-    font-weight: 700;
     font-size: 22px;
     line-height: 34px;
+    margin-top: 32px;
     color: #f1592b;
+    font-weight: 700;
   }
 
   &__title {
-    margin: 0;
-    margin-top: 17px;
-    font-weight: 700;
     font-size: 40px;
     line-height: 40px;
+    margin: 0;
+    margin-top: 17px;
     letter-spacing: -0.36px;
+    font-weight: 700;
 
     @include for-large-up {
-      margin-top: 24px;
-      margin-right: 26px;
+      width: 462px;
       font-size: 56px;
       line-height: 56px;
+      margin: 24px 26px 0 0;
       letter-spacing: -0.5px;
-      width: 462px;
     }
   }
 
@@ -88,8 +85,8 @@
     line-height: 34px;
 
     @include for-large-up {
-      margin-top: 30px;
       width: 461px;
+      margin-top: 30px;
     }
   }
 
@@ -102,16 +99,16 @@
     border-bottom: 4px solid #0185d0;
 
     @include for-large-up {
+      width: 519px;
       padding: 30px 30px 28px;
       margin-top: 44px;
-      width: 519px;
     }
   }
 
   &__quote {
-    margin: 0;
     font-size: 20px;
     line-height: 28px;
+    margin: 0;
   }
 
   &__quote-bold {
@@ -123,10 +120,10 @@
   }
 
   &__user-image {
-    margin-top: 28px;
-    margin-right: 11px;
     width: 40px;
     height: 40px;
+    margin-top: 28px;
+    margin-right: 11px;
   }
 
   &__text-block {
@@ -134,15 +131,15 @@
   }
 
   &__name {
-    font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+    font-weight: 700;
   }
 
   &__description {
     font-size: 16px;
     line-height: 22px;
-    font-weight: 400;
     color: rgba(43, 41, 45, 0.6);
+    font-weight: 400;
   }
 }
