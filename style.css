@@ -145,10 +145,12 @@ html {
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .logo__image {
   width: 48px;
   height: 48px;
+  margin-right: 13px;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
